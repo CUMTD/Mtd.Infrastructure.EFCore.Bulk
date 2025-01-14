@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<AnalysisLevel>latest</AnalysisLevel>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<TargetFramework>net9.0</TargetFramework>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<!-- Can be removed once we are no longer using pre-release dep -->
+		<NoWarn>$(NoWarn);NU5104</NoWarn>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include=".\icon.png" Pack="true" PackagePath="\" />
+		<None Include=".\readme.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="EFCore.BulkExtensions" />
+		<PackageReference Include="Mtd.Core" />
+		<PackageReference Include="Mtd.Infrastructure.EFCore" />
+	</ItemGroup>
+</Project>

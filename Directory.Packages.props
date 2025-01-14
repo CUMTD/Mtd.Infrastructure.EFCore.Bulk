@@ -1,0 +1,16 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageVersion Include="EFCore.BulkExtensions" Version="9.0.0-rc.1" />
+    <PackageVersion Include="Mtd.Core" Version="9.2.1" />
+    <PackageVersion Include="Mtd.Infrastructure.EFCore" Version="9.1.0" />
+  </ItemGroup>
+</Project>
