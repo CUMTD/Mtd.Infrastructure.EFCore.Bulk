@@ -18,7 +18,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="EFCore.BulkExtensions" />
+		<PackageReference Include="EFCore.BulkExtensions.Core" />
 		<PackageReference Include="Mtd.Core" />
 		<PackageReference Include="Mtd.Infrastructure.EFCore" />
 	</ItemGroup>
